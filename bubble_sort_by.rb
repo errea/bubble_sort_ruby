@@ -7,17 +7,17 @@ def bubble_sort_by(arr)
   until is_ordered # if array is not ordered
     is_ordered = true
     (0..(len - 2)).each do |i| # the second to last item is the length minus 2
-      item1 = arr[i] # current item
-      item2 = arr[i + 1] # next item
-      next unless item1 > item2 # compare items
-
-      arr[i] = item2 # swap items
-      arr[i + 1] = item1
-      is_ordered = false
+      if yield(arr[i], arr[i + 1]).positive? # compare items
+        arr[i], arr[i + 1] = arr[i + 1], arr[i] # swap items
+        is_ordered = false
+      end
     end
   end
   arr
 end
 
-puts bubble_sort([4, 3, 78, 2, 0, 2])
-puts bubble_sort(%w[tree b car plane])
+sorted_array = bubble_sort_by(%w[hi hello hey hola]) do |left, right|
+  left.length - right.length
+end
+
+puts sorted_array

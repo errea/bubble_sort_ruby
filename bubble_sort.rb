@@ -7,12 +7,9 @@ def bubble_sort(arr)
   until is_ordered # if array is not ordered
     is_ordered = true
     (0..(len - 2)).each do |i| # the second to last item is the length minus 2
-      item1 = arr[i] # current item
-      item2 = arr[i + 1] # next item
-      next unless item1 > item2 # compare items
+      next unless arr[i] > arr[i + 1] # compare items
 
-      arr[i] = item2 # swap items
-      arr[i + 1] = item1
+      arr[i], arr[i + 1] = arr[i + 1], arr[i] # swap items
       is_ordered = false
     end
   end
