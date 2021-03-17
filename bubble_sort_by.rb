@@ -1,4 +1,4 @@
-def bubble_sort(arr)
+def bubble_sort_by(arr)
   len = arr.length
   # the array must have 2+ items if not, return the array
 
