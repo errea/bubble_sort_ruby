@@ -1,4 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Bubble Sort Algorithm
 
 This is the first project that welcomes us into the Ruby Section of the *Microverse Remote Software Development Curriculum*.
@@ -24,9 +25,9 @@ Simple right? Below is a simple animated illustration:
 
 ## Live Code
 
-[Eri Solution](https://repl.it/@jacobrees24/Bubble-Sort#jacob_bubblesort.rb)
+<!---[Eri Solution](https://repl.it/@eri/Bubble-Sort#bubblesort.rb)
 
-[John Solution](https://repl.it/@Acushla/Bubble-Sort-7#uduak_bubblesort.rb)
+[John Solution](https://repl.it/@john/Bubble-Sort#bubblesort.rb)  --->
 
 ## Getting Started
 
@@ -37,28 +38,29 @@ $ cd <folder>
 ```
 
 ```
-$ git clone https://github.com/jacobrees/Bubble-Sort.git
+$ git clone https://github.com/errea/bubble_sort_ruby.git
 ```
 
 ## Authors
 
 👤 **Eri**
 
-- Github: [@acushlakoncept](https://github.com/acushlakoncept/)
-- Twitter: [@acushlakoncept](https://twitter.com/acushlakoncept)
-- Linkedin: [acushlakoncept](https://www.linkedin.com/in/acushlakoncept/)
+- Github: [@errea](https://github.com/errea/)
+- Twitter: [Erreakay](https://twitter.com/Erreakay)
+- Linkedin: [eri-ngozi-okereafor](https://www.linkedin.com/in/eri-ngozi-okereafor/)
 
 👤 **John**
 
-- Github: [jacobrees](https://github.com/jacobrees)
-- Linkedin: [jacob-rees-a6507b1a6](https://www.linkedin.com/in/jacob-rees-a6507b1a6/)
+- Github: [John](https://github.com/John-Arboleda)
+- Twitter: [John](https://twitter.com/John_J_Arboleda
+)
+- Linkedin: [john-jairo-arboleda-castillo](https://www.linkedin.com/in/john-jairo-arboleda-castillo/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/jacobrees/Bubble-Sort/issues).
-
 
 ## Show your support
 
@@ -124,7 +126,7 @@ Click on the `Details` link of the test action to check the results of your test
 
 ## Troubleshooting
 
-- While using Colorize gem, if you are facing errors with Rspec related to 
+- While using Colorize gem, if you are facing errors with Rspec related to
     ```bash
     LoadError:
     cannot load such file -- colorize
