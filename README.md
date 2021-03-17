@@ -60,7 +60,7 @@ $ git clone https://github.com/errea/bubble_sort_ruby.git
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jacobrees/Bubble-Sort/issues).
+Feel free to check the [issues page](https://github.com/errea/bubble_sort_ruby/issues).
 
 ## Show your support
 
