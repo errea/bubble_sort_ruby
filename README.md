@@ -1,3 +1,76 @@
+# Bubble Sort Algorithm
+
+This is the first project that welcomes us into the Ruby Section of the *Microverse Remote Software Development Curriculum*.
+
+This is a quick extract that helps explains the underlying concepts of bubble sort
+
+### Bubble Sort Algorithm: Steps on how it works:
+
+In an unsorted array of 5 elements, start with the first two elements and sort them in ascending order. (Compare the element to check which one is greater).
+
+- Compare the second and third element to check which one is greater, and sort them in ascending order.
+- Compare the third and fourth element to check which one is greater, and sort them in ascending order.
+- Compare the fourth and fifth element to check which one is greater, and sort them in ascending order.
+- Repeat steps 1–5 until no more swaps are required.
+
+Simple right? Below is a simple animated illustration:
+
+![screenshot](./img/illustration.gif)
+
+## Built With
+
+- Ruby
+
+## Live Code
+
+[Eri Solution](https://repl.it/@jacobrees24/Bubble-Sort#jacob_bubblesort.rb)
+
+[John Solution](https://repl.it/@Acushla/Bubble-Sort-7#uduak_bubblesort.rb)
+
+## Getting Started
+
+To get a local copy of the repository please run the following commands on your terminal:
+
+```
+$ cd <folder>
+```
+
+```
+$ git clone https://github.com/jacobrees/Bubble-Sort.git
+```
+
+## Authors
+
+👤 **Uduak Essien**
+
+- Github: [@acushlakoncept](https://github.com/acushlakoncept/)
+- Twitter: [@acushlakoncept](https://twitter.com/acushlakoncept)
+- Linkedin: [acushlakoncept](https://www.linkedin.com/in/acushlakoncept/)
+
+👤 **Jacob Rees**
+
+- Github: [jacobrees](https://github.com/jacobrees)
+- Linkedin: [jacob-rees-a6507b1a6](https://www.linkedin.com/in/jacob-rees-a6507b1a6/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/jacobrees/Bubble-Sort/issues).
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## Acknowledgments
+
+- Project originally taken from The Odin Project
+- Project inspired by Microverse Program
+
+
 # Ruby Course
 
 If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).
@@ -17,11 +90,9 @@ Please do the following **steps in this order**:
     - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
 3. When you open your first pull request you should see the result of the GitHub Actions:
 
-![gh actions checks](../assets/images/gh-actions-rubocop-linters-checks.png)
+![gh actions checks](../assets/images/gh-actions-rubocop-linters-c
 
 Click on the `Details` link to see the full output and the errors that need to be fixed:
-
-![gh actions failing checks](../assets/images/gh-actions-rubocop-failing-checks.png)
 
 ## [OPTIONAL]Set-up RSpec GitHub Action
 
@@ -35,8 +106,6 @@ To use the GitHub Action to run your tests, please do the following **steps in t
     - RSpec by default will try to run any file ending in `_spec.rb` inside the `spec` folder. Make sure to follow this convention for your tests files so `rspec` can run your spec files.
     - You can modify the [`.github/workflows/tests.yml`](.github/workflows/tests.yml) file to better fit your custom needs.
 3. When you open your pull request you should see the result of the GitHub Action:
-
-![gh actions checks](../assets/images/gh-actions-rspec-tests-checks.png)
 
 Click on the `Details` link of the test action to check the results of your tests.
 
