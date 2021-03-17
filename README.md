@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 # Bubble Sort Algorithm
 
 This is the first project that welcomes us into the Ruby Section of the *Microverse Remote Software Development Curriculum*.
@@ -41,17 +42,16 @@ $ git clone https://github.com/jacobrees/Bubble-Sort.git
 
 ## Authors
 
-👤 **Uduak Essien**
+👤 **Eri**
 
 - Github: [@acushlakoncept](https://github.com/acushlakoncept/)
 - Twitter: [@acushlakoncept](https://twitter.com/acushlakoncept)
 - Linkedin: [acushlakoncept](https://www.linkedin.com/in/acushlakoncept/)
 
-👤 **Jacob Rees**
+👤 **John**
 
 - Github: [jacobrees](https://github.com/jacobrees)
 - Linkedin: [jacob-rees-a6507b1a6](https://www.linkedin.com/in/jacob-rees-a6507b1a6/)
-
 
 ## 🤝 Contributing
 
@@ -64,12 +64,14 @@ Feel free to check the [issues page](https://github.com/jacobrees/Bubble-Sort/is
 
 Give a ⭐️ if you like this project!
 
-
 ## Acknowledgments
 
 - Project originally taken from The Odin Project
 - Project inspired by Microverse Program
 
+>## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
 
 # Ruby Course
 
@@ -89,8 +91,6 @@ Please do the following **steps in this order**:
 2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
     - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
 3. When you open your first pull request you should see the result of the GitHub Actions:
-
-![gh actions checks](../assets/images/gh-actions-rubocop-linters-c
 
 Click on the `Details` link to see the full output and the errors that need to be fixed:
 
